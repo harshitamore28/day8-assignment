@@ -28,9 +28,9 @@ class Directory extends React.Component {
   render() {
     return (
       <div className="directory">
-        <table className="table">
+        <table border ="1" className="table">
           <thead>
-            <tr className="bg-dark text-white">
+            <tr>
               <td>Id</td>
               <td>Image</td>
               <td>Title</td>
